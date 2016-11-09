@@ -63,30 +63,45 @@ header nav ul li a:hover{
     margin: 0 170px;
     font-size: 20px;
 }
+
 h3 {
     font-size: 30px;
 }
 
-.lista {
-    list-style:none;
-    margin: 0px;
-    padding: 0px;
-    }
-.lista li {
-    display: inline-block;
-    padding: 9.5px;
+.padre {
+  width: 713px;
+  position:relative;
+  margin-left:0px;
+  margin-top:30px;
 }
-.coders hr{
-    width: 150px;
-    background-color: black;
-    border: 1px solid;
-    }
-.caja:after {
-    content: "Nombre y Apellido";
-    position: absolute;
-    color: white;
-    clear: both;
-    }
+hr {
+    border:2px solid black;
+    width:100px;
+    position:relative;
+    left:0px;
+   
+}
 .caja {
-    position: 
+    position:relative;
+    display:inline-block;
+    margin:12px;
+    background: black;
+    width:211px;
+    height: 211px;
 }
+
+img {
+    opacity:0.9; 
+}
+
+.caja:after {
+    content:"Nombre y Apellido";
+    position:absolute;
+    color:white;
+    right:5px;
+    bottom:0px;
+    
+}
+
+
+
